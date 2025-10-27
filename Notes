@@ -22,3 +22,28 @@ HTML - Hyper text markup language
 8) list - order list and unorder list
 
 9) tables - th, tr, td
+
+10) forms
+input and Label
+
+11) Media Elements
+audio and video
+
+12) Sematic Tags - Header, footer, section, nav, and main
+
+13) Division tag - div
+
+
+
+CSS - Cascading Style Sheet
+
+1) Type of CSS
+ i - Inline
+ ii - internal
+ iii - Enternal
+Inline > Internal > External 
+
+2) CSS Syntax
+Selector{
+    property:value;
+}
