@@ -1,3 +1,35 @@
+*{
+    /* background-color: orange; */
+}
+
+
 h1{
-    color: yellow;
+    color: red;
+}
+
+.Name > h1,
+.Name > h2,
+.Name > h3{
+    color: green;
+}
+
+#Name > h1{
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+p{
+    color: red;
+    background-color: aqua;
+    background-image: url(./Assets/Spider-man.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
