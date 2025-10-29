@@ -1,5 +1,8 @@
 *{
     /* background-color: orange; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 
@@ -32,4 +35,58 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.Boxes{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* padding-left: 50px;
+    padding-top: 40px; */
+    padding: 20px 40px 60px 80px;
+    border: 10px solid black;
+    border-radius: 5px;
+    /* border-top: 10px solid green; */
+    /* margin-left: 50px;
+    margin-top: 70px; */
+    margin: 10px 30px 50px 70px;
+}
+
+.box1{
+   width: 100px;
+   height: 100px;
+   background-color: red;
+}   
+
+.box2{
+   width: 100px;
+   height: 100px;
+   background-color: blue;
+}  
+
+.box3{
+   width: 100px;
+   height: 100px;
+   background-color: green;
+}  
+
+.box4{
+   width: 100px;
+   height: 100px;
+   background-color: yellow;
+}  
+
+.box5{
+   width: 100px;
+   height: 100px;
+   background-color: black;
+} 
+
+.container{
+   display: flex;
+   /* flex-direction: row-reverse; */
+   justify-content: center;
+   height: 500px;
+   border: 5px solid hotpink;
+   align-items: center;
 }

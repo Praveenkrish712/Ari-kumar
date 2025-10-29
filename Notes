@@ -70,3 +70,14 @@ CSS - Cascading Style Sheet
    font-weight: bold;
    line-height: 1;
    letter-spacing: 1px;
+
+6. Box Modeling
+   Content
+   padding
+   border
+   margin
+
+7. Flex
+  Direction - Row, row-reverse, column, column-reverse
+  justify-content - (X) - Start, center, end, space-around, space-between, space-evenly  
+  align-items - (Y) - Start, center, end
