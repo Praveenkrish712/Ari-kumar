@@ -78,6 +78,13 @@ CSS - Cascading Style Sheet
    margin
 
 7. Flex
-  Direction - Row, row-reverse, column, column-reverse
-  justify-content - (X) - Start, center, end, space-around, space-between, space-evenly  
-  align-items - (Y) - Start, center, end
+  1. Direction - Row, row-reverse, column, column-reverse
+  2. justify-content - (X) - Start, center, end, space-around, 3. space-between, space-evenly  
+  4. align-items - (Y) - Start, center, end
+  5. Flex-wrap - nowrap, wrap, wrap-reverse
+  6. Align-content - (Y) (only flex wrap enable then only it will act) - Start, center, end, space-around, space-between, space-evenly  
+  7. Flex (on items) - For grow the flex item
+  8. order - Change the visual order of the flex item
+  9. gap - to be assgin with values px,cm,m,%....
+
+8.   
