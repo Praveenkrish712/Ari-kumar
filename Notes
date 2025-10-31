@@ -87,4 +87,9 @@ CSS - Cascading Style Sheet
   8. order - Change the visual order of the flex item
   9. gap - to be assgin with values px,cm,m,%....
 
-8.   
+8. Position
+  1. Static (default) 
+  2. Relative
+  3. Absolute
+  4. Fixed
+  5. Sticky  
