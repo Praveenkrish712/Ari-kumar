@@ -78,21 +78,38 @@ CSS - Cascading Style Sheet
    margin
 
 7. Flex
-  1. Direction - Row, row-reverse, column, column-reverse
-  2. justify-content - (X) - Start, center, end, space-around, 3. space-between, space-evenly  
-  4. align-items - (Y) - Start, center, end
-  5. Flex-wrap - nowrap, wrap, wrap-reverse
-  6. Align-content - (Y) (only flex wrap enable then only it will act) - Start, center, end, space-around, space-between, space-evenly  
-  7. Flex (on items) - For grow the flex item
-  8. order - Change the visual order of the flex item
-  9. gap - to be assgin with values px,cm,m,%....
+8. Direction - Row, row-reverse, column, column-reverse
+9. justify-content - (X) - Start, center, end, space-around, 3. space-between, space-evenly
+10. align-items - (Y) - Start, center, end
+11. Flex-wrap - nowrap, wrap, wrap-reverse
+12. Align-content - (Y) (only flex wrap enable then only it will act) - Start, center, end, space-around, space-between, space-evenly
+13. Flex (on items) - For grow the flex item
+14. order - Change the visual order of the flex item
+15. gap - to be assgin with values px,cm,m,%....
 
-8. Position
-  1. Static (default) 
-  2. Relative
-  3. Absolute
-  4. Fixed
-  5. Sticky  
+16. Position
+17. Static (default)
+18. Relative
+19. Absolute
+20. Fixed
+21. Sticky
 
-9. Grid
-  2 - dimensional layout System  
+22. Grid
+    2 - dimensional layout System
+
+23. Transition and Animation
+    1.Tranition - Whenever you can hover the effect will act
+    transition-duration: 5s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    transition-delay: 3s;
+
+   transform- rotate, scale, translate
+2.Animation - Just refresh the site it will happens
+   animation-name: circle;
+   animation-duration: 5s;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+
+   must - using @keyframes and give some limits like 50%, 100% or From and to...
+   
