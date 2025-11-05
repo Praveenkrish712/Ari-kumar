@@ -108,8 +108,12 @@ CSS - Cascading Style Sheet
 2.Animation - Just refresh the site it will happens
    animation-name: circle;
    animation-duration: 5s;
-   animation-fill-mode: forwards;
+   animation-fill-mode: forwards; *
    animation-iteration-count: infinite;
 
    must - using @keyframes and give some limits like 50%, 100% or From and to...
-   
+
+24. Media Queries or Responsive design
+  Mobile - 320px to 600px 
+  tab    - 601px to 800px 
+  lap/desktop - Above 801px  
